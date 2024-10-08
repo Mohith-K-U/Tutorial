@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    char studentName[]="Alice";
+    int sem=2;
+    double sgpa=8.2;
+    char grade[]="A";
+    printf("Student name:%s\n",studentName);
+    printf("Semester:%d\n",sem);
+    printf("SGPA:%.2f\n",sgpa);
+    printf("Grade:%s\n",grade);
+    return 0;
+}
